@@ -26,7 +26,8 @@ class Autenticacion {
         })
 
         const configuracion = {
-          url: 'https://blogeekplatzi-4836b.firebaseapp.com/'
+          // url: 'https://blogeekplatzi-4836b.firebaseapp.com/'
+          url: 'http://localhost:3000/'
         }
 
         result.user.sendEmailVerification(configuracion).catch(error => {
